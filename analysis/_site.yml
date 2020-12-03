@@ -1,7 +1,7 @@
-name: "project-cell-annotation"
+name: project-cell-annotation
 output_dir: ../docs
 navbar:
-  title: "project-cell-annotation"
+  title: project-cell-annotation
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/stinea98/project-cell-annotation
 output:
   workflowr::wflow_html:
     toc: yes
